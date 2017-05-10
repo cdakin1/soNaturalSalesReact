@@ -8,6 +8,7 @@ const bodyParser = require('body-parser');
 // const User = require('./user-model.js');
 // const secrets = require('./secrets.js');
 
+// TODO: Get es6 working on back end so you don't have to require everything like a caveman
 
 const graphqlServerExpress = require('graphql-server-express');
 const graphqlExpress = graphqlServerExpress.graphqlExpress;
